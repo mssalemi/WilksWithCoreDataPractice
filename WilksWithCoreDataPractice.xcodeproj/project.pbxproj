@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4820CF841C8D383C0051B283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CF831C8D383C0051B283 /* AppDelegate.swift */; };
+		4820CF891C8D383C0051B283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4820CF871C8D383C0051B283 /* Main.storyboard */; };
+		4820CF8B1C8D383C0051B283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4820CF8A1C8D383C0051B283 /* Assets.xcassets */; };
+		4820CF8E1C8D383C0051B283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4820CF8C1C8D383C0051B283 /* LaunchScreen.storyboard */; };
+		4820CF991C8D383C0051B283 /* WilksWithCoreDataPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CF981C8D383C0051B283 /* WilksWithCoreDataPracticeTests.swift */; };
+		4820CFA41C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFA31C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.swift */; };
+		4820CFB21C8D38F00051B283 /* WilksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFB11C8D38F00051B283 /* WilksTableViewController.swift */; };
+		4820CFB41C8D3AAA0051B283 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFB31C8D3AAA0051B283 /* CoreDataStackManager.swift */; };
+		4820CFB61C8D3B3A0051B283 /* WilksScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFB51C8D3B3A0051B283 /* WilksScore.swift */; };
+		4820CFB91C8D3CDB0051B283 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFB71C8D3CDB0051B283 /* Model.xcdatamodeld */; };
+		4820CFBD1C8D3E4E0051B283 /* AddNewWilksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFBC1C8D3E4E0051B283 /* AddNewWilksViewController.swift */; };
+		4820CFBF1C8D500A0051B283 /* WilksConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820CFBE1C8D500A0051B283 /* WilksConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4820CF951C8D383C0051B283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4820CF781C8D383C0051B283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4820CF7F1C8D383C0051B283;
+			remoteInfo = WilksWithCoreDataPractice;
+		};
+		4820CFA01C8D383C0051B283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4820CF781C8D383C0051B283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4820CF7F1C8D383C0051B283;
+			remoteInfo = WilksWithCoreDataPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4820CF801C8D383C0051B283 /* WilksWithCoreDataPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilksWithCoreDataPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820CF831C8D383C0051B283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4820CF881C8D383C0051B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4820CF8A1C8D383C0051B283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4820CF8D1C8D383C0051B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4820CF8F1C8D383C0051B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820CF941C8D383C0051B283 /* WilksWithCoreDataPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilksWithCoreDataPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820CF981C8D383C0051B283 /* WilksWithCoreDataPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilksWithCoreDataPracticeTests.swift; sourceTree = "<group>"; };
+		4820CF9A1C8D383C0051B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820CF9F1C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilksWithCoreDataPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4820CFA31C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilksWithCoreDataPracticeUITests.swift; sourceTree = "<group>"; };
+		4820CFA51C8D383C0051B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4820CFB11C8D38F00051B283 /* WilksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WilksTableViewController.swift; sourceTree = "<group>"; };
+		4820CFB31C8D3AAA0051B283 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		4820CFB51C8D3B3A0051B283 /* WilksScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WilksScore.swift; sourceTree = "<group>"; };
+		4820CFB81C8D3CDB0051B283 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4820CFBC1C8D3E4E0051B283 /* AddNewWilksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNewWilksViewController.swift; path = ../AddNewWilksViewController.swift; sourceTree = "<group>"; };
+		4820CFBE1C8D500A0051B283 /* WilksConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WilksConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4820CF7D1C8D383C0051B283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820CF911C8D383C0051B283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820CF9C1C8D383C0051B283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4820CF771C8D383C0051B283 = {
+			isa = PBXGroup;
+			children = (
+				4820CF821C8D383C0051B283 /* WilksWithCoreDataPractice */,
+				4820CF971C8D383C0051B283 /* WilksWithCoreDataPracticeTests */,
+				4820CFA21C8D383C0051B283 /* WilksWithCoreDataPracticeUITests */,
+				4820CF811C8D383C0051B283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4820CF811C8D383C0051B283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4820CF801C8D383C0051B283 /* WilksWithCoreDataPractice.app */,
+				4820CF941C8D383C0051B283 /* WilksWithCoreDataPracticeTests.xctest */,
+				4820CF9F1C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4820CF821C8D383C0051B283 /* WilksWithCoreDataPractice */ = {
+			isa = PBXGroup;
+			children = (
+				4820CFB71C8D3CDB0051B283 /* Model.xcdatamodeld */,
+				4820CFB31C8D3AAA0051B283 /* CoreDataStackManager.swift */,
+				4820CF831C8D383C0051B283 /* AppDelegate.swift */,
+				4820CF871C8D383C0051B283 /* Main.storyboard */,
+				4820CFB11C8D38F00051B283 /* WilksTableViewController.swift */,
+				4820CFBC1C8D3E4E0051B283 /* AddNewWilksViewController.swift */,
+				4820CFB51C8D3B3A0051B283 /* WilksScore.swift */,
+				4820CFBE1C8D500A0051B283 /* WilksConstants.swift */,
+				4820CF8A1C8D383C0051B283 /* Assets.xcassets */,
+				4820CF8C1C8D383C0051B283 /* LaunchScreen.storyboard */,
+				4820CF8F1C8D383C0051B283 /* Info.plist */,
+			);
+			path = WilksWithCoreDataPractice;
+			sourceTree = "<group>";
+		};
+		4820CF971C8D383C0051B283 /* WilksWithCoreDataPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4820CF981C8D383C0051B283 /* WilksWithCoreDataPracticeTests.swift */,
+				4820CF9A1C8D383C0051B283 /* Info.plist */,
+			);
+			path = WilksWithCoreDataPracticeTests;
+			sourceTree = "<group>";
+		};
+		4820CFA21C8D383C0051B283 /* WilksWithCoreDataPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4820CFA31C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.swift */,
+				4820CFA51C8D383C0051B283 /* Info.plist */,
+			);
+			path = WilksWithCoreDataPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4820CF7F1C8D383C0051B283 /* WilksWithCoreDataPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820CFA81C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPractice" */;
+			buildPhases = (
+				4820CF7C1C8D383C0051B283 /* Sources */,
+				4820CF7D1C8D383C0051B283 /* Frameworks */,
+				4820CF7E1C8D383C0051B283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WilksWithCoreDataPractice;
+			productName = WilksWithCoreDataPractice;
+			productReference = 4820CF801C8D383C0051B283 /* WilksWithCoreDataPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4820CF931C8D383C0051B283 /* WilksWithCoreDataPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820CFAB1C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPracticeTests" */;
+			buildPhases = (
+				4820CF901C8D383C0051B283 /* Sources */,
+				4820CF911C8D383C0051B283 /* Frameworks */,
+				4820CF921C8D383C0051B283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4820CF961C8D383C0051B283 /* PBXTargetDependency */,
+			);
+			name = WilksWithCoreDataPracticeTests;
+			productName = WilksWithCoreDataPracticeTests;
+			productReference = 4820CF941C8D383C0051B283 /* WilksWithCoreDataPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4820CF9E1C8D383C0051B283 /* WilksWithCoreDataPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4820CFAE1C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPracticeUITests" */;
+			buildPhases = (
+				4820CF9B1C8D383C0051B283 /* Sources */,
+				4820CF9C1C8D383C0051B283 /* Frameworks */,
+				4820CF9D1C8D383C0051B283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4820CFA11C8D383C0051B283 /* PBXTargetDependency */,
+			);
+			name = WilksWithCoreDataPracticeUITests;
+			productName = WilksWithCoreDataPracticeUITests;
+			productReference = 4820CF9F1C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4820CF781C8D383C0051B283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MxMd;
+				TargetAttributes = {
+					4820CF7F1C8D383C0051B283 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4820CF931C8D383C0051B283 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4820CF7F1C8D383C0051B283;
+					};
+					4820CF9E1C8D383C0051B283 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4820CF7F1C8D383C0051B283;
+					};
+				};
+			};
+			buildConfigurationList = 4820CF7B1C8D383C0051B283 /* Build configuration list for PBXProject "WilksWithCoreDataPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4820CF771C8D383C0051B283;
+			productRefGroup = 4820CF811C8D383C0051B283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4820CF7F1C8D383C0051B283 /* WilksWithCoreDataPractice */,
+				4820CF931C8D383C0051B283 /* WilksWithCoreDataPracticeTests */,
+				4820CF9E1C8D383C0051B283 /* WilksWithCoreDataPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4820CF7E1C8D383C0051B283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820CF8E1C8D383C0051B283 /* LaunchScreen.storyboard in Resources */,
+				4820CF8B1C8D383C0051B283 /* Assets.xcassets in Resources */,
+				4820CF891C8D383C0051B283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820CF921C8D383C0051B283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820CF9D1C8D383C0051B283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4820CF7C1C8D383C0051B283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820CFB21C8D38F00051B283 /* WilksTableViewController.swift in Sources */,
+				4820CFB61C8D3B3A0051B283 /* WilksScore.swift in Sources */,
+				4820CFBD1C8D3E4E0051B283 /* AddNewWilksViewController.swift in Sources */,
+				4820CFBF1C8D500A0051B283 /* WilksConstants.swift in Sources */,
+				4820CFB91C8D3CDB0051B283 /* Model.xcdatamodeld in Sources */,
+				4820CF841C8D383C0051B283 /* AppDelegate.swift in Sources */,
+				4820CFB41C8D3AAA0051B283 /* CoreDataStackManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820CF901C8D383C0051B283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820CF991C8D383C0051B283 /* WilksWithCoreDataPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4820CF9B1C8D383C0051B283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4820CFA41C8D383C0051B283 /* WilksWithCoreDataPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4820CF961C8D383C0051B283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4820CF7F1C8D383C0051B283 /* WilksWithCoreDataPractice */;
+			targetProxy = 4820CF951C8D383C0051B283 /* PBXContainerItemProxy */;
+		};
+		4820CFA11C8D383C0051B283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4820CF7F1C8D383C0051B283 /* WilksWithCoreDataPractice */;
+			targetProxy = 4820CFA01C8D383C0051B283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4820CF871C8D383C0051B283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4820CF881C8D383C0051B283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4820CF8C1C8D383C0051B283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4820CF8D1C8D383C0051B283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4820CFA61C8D383C0051B283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4820CFA71C8D383C0051B283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4820CFA91C8D383C0051B283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WilksWithCoreDataPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.WilksWithCoreDataPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4820CFAA1C8D383C0051B283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WilksWithCoreDataPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.WilksWithCoreDataPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4820CFAC1C8D383C0051B283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WilksWithCoreDataPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.WilksWithCoreDataPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilksWithCoreDataPractice.app/WilksWithCoreDataPractice";
+			};
+			name = Debug;
+		};
+		4820CFAD1C8D383C0051B283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WilksWithCoreDataPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.WilksWithCoreDataPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilksWithCoreDataPractice.app/WilksWithCoreDataPractice";
+			};
+			name = Release;
+		};
+		4820CFAF1C8D383C0051B283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WilksWithCoreDataPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.WilksWithCoreDataPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilksWithCoreDataPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4820CFB01C8D383C0051B283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WilksWithCoreDataPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mehdisalemi.WilksWithCoreDataPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilksWithCoreDataPractice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4820CF7B1C8D383C0051B283 /* Build configuration list for PBXProject "WilksWithCoreDataPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820CFA61C8D383C0051B283 /* Debug */,
+				4820CFA71C8D383C0051B283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4820CFA81C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820CFA91C8D383C0051B283 /* Debug */,
+				4820CFAA1C8D383C0051B283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4820CFAB1C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820CFAC1C8D383C0051B283 /* Debug */,
+				4820CFAD1C8D383C0051B283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4820CFAE1C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4820CFAF1C8D383C0051B283 /* Debug */,
+				4820CFB01C8D383C0051B283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4820CFB71C8D3CDB0051B283 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4820CFB81C8D3CDB0051B283 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4820CFB81C8D3CDB0051B283 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4820CF781C8D383C0051B283 /* Project object */;
+}
