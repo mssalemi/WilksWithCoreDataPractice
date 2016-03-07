@@ -43,11 +43,6 @@ class WilksScore : NSManagedObject {
         self.squat = dictionary[Keys.Squat] as! Double
         self.bench = dictionary[Keys.Bench] as! Double
         self.deadlift = dictionary[Keys.Deadlift] as! Double
-        
-        print("Should be: ")
-        print(dictionary[Keys.Wilks])
-        print("It really is: ")
-        print(wilks)
     }
     
     func calculateWilks(weight: Double, total: Double) -> Double {

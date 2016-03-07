@@ -44,16 +44,6 @@ class WilksTableViewController: UITableViewController, addNewWilksProtocol {
         controller.myProtocol = self
         self.presentViewController(controller, animated: true, completion: nil)
         
-//        let dictionary: [String:AnyObject] = [
-//            WilksScore.Keys.Wilks : 500.00,
-//            WilksScore.Keys.Weight : 77.0,
-//            WilksScore.Keys.Squat : 205.0,
-//            WilksScore.Keys.Bench : 135.0,
-//            WilksScore.Keys.Deadlift : 275.0
-//        ]
-//        let newWilks = WilksScore(dictionary: dictionary, context: self.sharedContext)
-//        self.allWilks.append(newWilks)
-//        CoreDataStackManager.sharedInstance().saveContext()
     }
     
     // MARK: - Table view data source
