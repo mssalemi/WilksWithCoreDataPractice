@@ -502,6 +502,7 @@
 				4820CFAA1C8D383C0051B283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4820CFAB1C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +511,7 @@
 				4820CFAD1C8D383C0051B283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4820CFAE1C8D383C0051B283 /* Build configuration list for PBXNativeTarget "WilksWithCoreDataPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +520,7 @@
 				4820CFB01C8D383C0051B283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
